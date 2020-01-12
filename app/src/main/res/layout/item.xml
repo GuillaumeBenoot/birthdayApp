@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:src="@drawable/cat"/>
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingLeft="1dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="1dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/silhouette"/>
+<!--            android:background="@drawable/bordure"-->
+
+
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>
