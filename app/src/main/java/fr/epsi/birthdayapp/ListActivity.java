@@ -20,8 +20,8 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.list);
         recyclerView = (RecyclerView) findViewById(R.id.recyleView);
 
-        mAdapter = new AnniversaireAdapter(this, ArrayList<Anniversaire> list);
-        recyclerView.setAdapter(mAdapter);
+//        mAdapter = new AnniversaireAdapter(this, ArrayList<Anniversaire> list);
+//        recyclerView.setAdapter(mAdapter);
 
 
     }
